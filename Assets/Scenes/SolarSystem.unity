@@ -153,7 +153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.37
+      value: -45.5
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -238,6 +238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5f0ee921d31e40aa6977d721e241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &364196375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -272,7 +274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4677324220665258, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.29
+      value: 37.65
       objectReference: {fileID: 0}
     - target: {fileID: 4677324220665258, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       propertyPath: m_LocalRotation.w
@@ -357,6 +359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5f0ee921d31e40aa6977d721e241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+  planet: 0
+  orbitSpeed: 20000
 --- !u!1001 &423502877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -379,7 +383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4620931210112870, guid: ab152f61198d54532ae39108e616ff59, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -17.71
+      value: -30.6
       objectReference: {fileID: 0}
     - target: {fileID: 4620931210112870, guid: ab152f61198d54532ae39108e616ff59, type: 3}
       propertyPath: m_LocalRotation.w
@@ -464,6 +468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5f0ee921d31e40aa6977d721e241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &660214595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -498,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.59
+      value: 62.64
       objectReference: {fileID: 0}
     - target: {fileID: 4799057029891002, guid: c91342f6e3afc48fd958056404ead345, type: 3}
       propertyPath: m_LocalRotation.w
@@ -583,6 +589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5f0ee921d31e40aa6977d721e241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &1442287049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -702,6 +710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5f0ee921d31e40aa6977d721e241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+  planet: 1
+  orbitSpeed: 0
 --- !u!1 &1714594793
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,7 +826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.52
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       propertyPath: m_LocalRotation.w
@@ -901,6 +911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5f0ee921d31e40aa6977d721e241c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1 &1789230042
 GameObject:
   m_ObjectHideFlags: 0
